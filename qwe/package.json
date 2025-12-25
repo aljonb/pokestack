@@ -1,0 +1,29 @@
+{
+	"name": "qwe",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"prepare": "svelte-kit sync || echo ''",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"setup": "tsx scripts/setup-db.ts"
+	},
+	"dependencies": {
+		"dotenv": "^17.2.3",
+		"pocketbase": "^0.26.5"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^7.0.0",
+		"@sveltejs/kit": "^2.49.1",
+		"@sveltejs/vite-plugin-svelte": "^6.2.1",
+		"svelte": "^5.45.6",
+		"svelte-check": "^4.3.4",
+		"tsx": "^4.19.0",
+		"typescript": "^5.9.3",
+		"vite": "^7.2.6"
+	}
+}

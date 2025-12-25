@@ -1,0 +1,19 @@
+# Dependency directories
+node_modules/
+
+# SvelteKit build and output files
+.svelte-kit/
+build/
+.env
+.env.*
+!.env.example
+
+# PocketBase data and logs
+pb_data/
+*.db
+*.db-journal
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
